@@ -1,0 +1,26 @@
+{
+  "name": "tactics_plan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joraffe/tactics_plan.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joraffe/tactics_plan/issues"
+  },
+  "homepage": "https://github.com/Joraffe/tactics_plan#readme",
+  "dependencies": {
+    "pixi.js": "^6.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
