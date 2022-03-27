@@ -1,0 +1,52 @@
+{"frames": {
+
+"grass_tile.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"rock_tile.png":
+{
+	"frame": {"x":120,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"sand_tile.png":
+{
+	"frame": {"x":240,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"simple_tile.png":
+{
+	"frame": {"x":360,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+},
+"water_tile.png":
+{
+	"frame": {"x":480,"y":0,"w":120,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":60},
+	"sourceSize": {"w":120,"h":60}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "tiles.png",
+	"format": "RGBA8888",
+	"size": {"w":600,"h":60},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5f3561340fa6526fd1ae82b9f6a28dcf:261a67d401ac6e3e6268028002c98a8e:dbf785ba7c1e25da11aacb606a63f8ef$"
+}
+}
