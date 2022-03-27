@@ -6,8 +6,8 @@ import { testLog } from 'helpers/misc.js';
 testLog('webpack JS loaded!');
 
 const app = new PIXI.Application({
-  'width': 800,
-  'height': 600,
+  'width': 1920,
+  'height': 1080,
    backgroundColor: 0xAAAAAA,
 });
 document.body.appendChild(app.view);
@@ -16,7 +16,7 @@ const sprites = {};
 app.loader.add('/static/assets/images/tiles.json').load(doneLoadingSpriteSheet);
 
 
-function doneLoadingSpriteSheet() {
+export const doneLoadingSpriteSheet = function() {
   const spriteSheet = app.loader.resources['/static/assets/images/tiles.json'].spritesheet;
   console.log(spriteSheet)
 
@@ -31,4 +31,3 @@ function doneLoadingSpriteSheet() {
     app.stage.addChild(sprites['tiles'][sprite]);
   }
 }
-
