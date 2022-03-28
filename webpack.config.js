@@ -23,7 +23,7 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'client', 'assets'),
-          to: path.resolve(__dirname, 'dist', 'static', 'assets'),
+          to: path.resolve(__dirname, 'dist', 'static'),
         },
       ]
     })

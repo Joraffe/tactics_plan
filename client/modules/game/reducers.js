@@ -1,10 +1,12 @@
 import { combineReducers } from "redux";
 
-import tilesReducer from "tiles/tileSlice";
+import spritesReducer from "sprites/spritesSlice";
+import tilesReducer from "tiles/tilesSlice";
 
 
 const rootReducer = combineReducers({
   tiles: tilesReducer,
+  sprites: spritesReducer,
 });
 
 

@@ -1,5 +1,4 @@
 import * as actions from 'tiles/actions';
-import * as models from 'tiles/models';
 
 
 export const initTileState = function() {
@@ -21,3 +20,6 @@ export default function tilesReducer(state = initTileState(), action) {
       return state;
   }
 }
+
+
+
